@@ -2,7 +2,7 @@ import Card from "@/components/card";
 
 export default function Page() {
   return (
-    <main className="flex items-center justify-center h-screen p-5 bg-gray-300">
+    <main className="flex items-center justify-center h-screen p-5 bg-gray-100 dark:bg-gray-700">
        <Card />
     </main>
   )

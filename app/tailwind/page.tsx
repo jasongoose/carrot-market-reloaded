@@ -21,9 +21,7 @@ export default function Page() {
           "",
         ]}
       /> */}
-      <button className="rounded-sexy-name mt-tomato h-[492.4px] bg-[#543cb8]">
-        Testing...
-      </button>
+      <button className="btn">Testing...</button>
     </main>
   );
 }

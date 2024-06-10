@@ -11,7 +11,7 @@ export default function Page() {
       <div className="flex w-full flex-col items-center gap-3">
         <Link
           href="/sign-up"
-          className="w-full rounded-md bg-orange-500 py-2.5 text-center text-lg font-medium text-white transition-colors hover:bg-orange-400"
+          className="btn-primary py-2.5 text-center text-lg font-medium"
         >
           시작하기
         </Link>

@@ -7,17 +7,9 @@ export default function Page() {
     <div className="flex flex-col gap-10 px-6 py-8">
       <div className="flex flex-col gap-2 *:font-medium">
         <h1 className="text-2xl">안녕하세요!</h1>
-        <h2 className="text-xl">Fill in the form below to join!</h2>
+        <h2 className="text-xl">Log in with email and password!</h2>
       </div>
       <form action="" className="flex flex-col gap-3">
-        <FormInput
-          {...{
-            type: "text",
-            placeholder: "Username",
-            required: true,
-            validationMessageList: ["username is too short"],
-          }}
-        />
         <FormInput
           {...{
             type: "email",
@@ -34,15 +26,7 @@ export default function Page() {
             validationMessageList: [],
           }}
         />
-        <FormInput
-          {...{
-            type: "password",
-            placeholder: "Confirm Password",
-            required: true,
-            validationMessageList: [],
-          }}
-        />
-        <FormBtn {...{ text: "Create account", loading: false }}></FormBtn>
+        <FormBtn {...{ text: "Log in", loading: false }}></FormBtn>
       </form>
       <SocialLogin />
     </div>
